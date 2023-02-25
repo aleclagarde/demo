@@ -1,0 +1,16 @@
+numpy
+requests
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.12+cpu
+fastapi==0.74.*
+sentencepiece==0.1.*
+transformers
+uvicorn[standard]==0.17.*
+codecarbon
+gunicorn
+accelerate
+seaborn
+matplotlib
+pandas
+scipy
+tabulate
