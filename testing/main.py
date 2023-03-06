@@ -56,7 +56,7 @@ class MakeApiCall:
             sentences_to_post = my_file.read().splitlines()
 
         cloud_providers = [
-            ["https://azurehuggingfacetranslator.azurewebsites.net", "azure"],
+            ["https://demo-daniel.azurewebsites.net", "azure"],
             ["https://docker-fastapi-translator.herokuapp.com", "heroku"],
             ["https://awsfastapitext-production.up.railway.app", "railway"],
             ["", "aws"],
